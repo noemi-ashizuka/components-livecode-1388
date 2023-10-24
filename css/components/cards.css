@@ -1,0 +1,49 @@
+.card{
+  background-color: white;
+  border-radius: 8px;
+  width: 400px;
+  padding: 10px;
+  margin: 0 auto;
+}
+.card-top-image {
+  width: 50%;
+  /* height: 200px; */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.card-top-image i {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  color: pink;
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.card-info {
+  width: 50%;
+}
+
+.video{
+  width: 100%;
+  margin: 8px 0;
+}
+
+.card-bottom{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-bottom img{
+  height: 70px;
+}
+
+.rating i {
+  color: rgb(255, 230, 0);
+}
